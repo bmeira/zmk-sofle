@@ -38,6 +38,12 @@
     };
 
     behaviors {
+        mt {
+            tapping-term-ms = <280>;        // default: 200
+            quick-tap-ms = <175>;           // default: -1 (disabled)
+            require-prior-idle-ms = <150>;  // default: -1 (disabled)
+            flavor = "balanced";            // default: "hold-preferred"
+        };
     };
 
     combos {
